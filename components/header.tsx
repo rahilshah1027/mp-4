@@ -42,6 +42,7 @@ export default function Header() {
                 <StyledUl>
                     <StyledLi><StyledLink href={"/"}> Home </StyledLink></StyledLi>
                     <StyledLi><StyledLink href={"/about"}> About </StyledLink></StyledLi>
+                    <StyledLi><StyledLink href={"/crypto"}> Crypto </StyledLink></StyledLi>
                 </StyledUl>
             </StyledNav>
         </StyledHeader>

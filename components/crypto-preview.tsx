@@ -1,3 +1,5 @@
+'use client'
+
 import { Currency } from "@/types";
 import styled from "styled-components";
 
@@ -22,12 +24,10 @@ const Coin = styled.div`
     background-color: #a4a4a4;
 `;
 
-
 const StyledH1 = styled.h1`
   justify-self: center;
   color: #434343;
 `
-
 
 export default function CryptoPreview (props : { data: Currency[] } ){
     return (
@@ -45,7 +45,6 @@ export default function CryptoPreview (props : { data: Currency[] } ){
                     </Coin>
                 )
             }
-            
         </CoinContainer>
         </>
     );
